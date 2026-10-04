@@ -32,7 +32,7 @@ export const TeamSection: React.FC = () => {
       bio: 'Frontend Developer, Backend Developer, and AI / ML Learner & Enthusiast.',
       skills: ['Frontend', 'Backend', 'AI / ML', 'MERN Stack'],
       college: 'Cauvery Institute of Technology, Mandya',
-      image: '/team/pradhan.png',
+      image: './team/pradhan.png',
       github: 'https://github.com/pradhanvishveshwaraiah',
       portfolio: 'https://pradhanvishveshwaraiah.github.io/my-portfolio/',
       isLead: true,
@@ -44,7 +44,7 @@ export const TeamSection: React.FC = () => {
       bio: 'Frontend Developer, learning Generative AI and Python.',
       skills: ['Frontend', 'Generative AI', 'Python'],
       college: 'Cauvery Institute of Technology, Mandya',
-      image: '/team/hanan.svg',
+      image: './team/hanan.svg',
       linkedin: 'https://www.linkedin.com/in/mohammed-hannan-78a63040a/',
     },
     {
@@ -54,7 +54,7 @@ export const TeamSection: React.FC = () => {
       bio: 'Editing and Design. Learning Python and Java.',
       skills: ['Editing', 'Designing', 'Python', 'Java'],
       college: 'Cauvery Institute of Technology, Mandya',
-      image: '/team/monisha.svg',
+      image: './team/monisha.svg',
       linkedin: 'https://www.linkedin.com/in/monisha-rs-09962140a/',
     },
     {
@@ -64,7 +64,7 @@ export const TeamSection: React.FC = () => {
       bio: 'Backend Developer, Data Structures & Algorithms (DSA) Enthusiast.',
       skills: ['Backend', 'DSA', 'Problem Solving'],
       college: 'Cauvery Institute of Technology, Mandya',
-      image: '/team/yashwanth.svg',
+      image: './team/yashwanth.svg',
     },
     {
       id: 'akshay',
@@ -73,7 +73,7 @@ export const TeamSection: React.FC = () => {
       bio: 'Learning Generative AI, Python, and Java.',
       skills: ['Generative AI', 'Python', 'Java'],
       college: 'Cauvery Institute of Technology, Mandya',
-      image: '/team/akshay.svg',
+      image: './team/akshay.svg',
       linkedin: 'https://www.linkedin.com/in/akshay-h-m-a73118401/',
     },
     {
@@ -83,7 +83,7 @@ export const TeamSection: React.FC = () => {
       bio: 'Backend Developer, learning Java, Python, and core group member.',
       skills: ['Backend', 'Java', 'Python'],
       college: 'Cauvery Institute of Technology, Mandya',
-      image: '/team/hamsaveni.svg',
+      image: './team/hamsaveni.svg',
       linkedin: 'https://www.linkedin.com/in/hamsaveni-mm-03837540b/',
     },
     {
@@ -93,7 +93,7 @@ export const TeamSection: React.FC = () => {
       bio: 'Editing and Design. Learning Python and Java.',
       skills: ['Editing', 'Designing', 'Python', 'Java'],
       college: 'Cauvery Institute of Technology, Mandya',
-      image: '/team/nayana.svg',
+      image: './team/nayana.svg',
     },
   ];
 

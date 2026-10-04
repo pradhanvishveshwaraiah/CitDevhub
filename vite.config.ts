@@ -148,9 +148,31 @@ function registrationApiPlugin(): Plugin {
   };
 }
 
+// Automatically creates a 404.html copy of index.html for GitHub Pages single-page app support
+function githubPagesSpaPlugin(): Plugin {
+  return {
+    name: 'github-pages-spa',
+    closeBundle() {
+      const distDir = path.resolve(__dirname, 'dist');
+      const indexPath = path.join(distDir, 'index.html');
+      const notFoundPath = path.join(distDir, '404.html');
+      if (fs.existsSync(indexPath)) {
+        try {
+          fs.copyFileSync(indexPath, notFoundPath);
+        } catch {
+          // ignore copy error
+        }
+      }
+    },
+  };
+}
+
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss(), registrationApiPlugin()],
+    // Relative base ensures GitHub Pages serves assets properly regardless of repository subpath
+    // e.g. https://<username>.github.io/<repo-name>/
+    base: './',
+    plugins: [react(), tailwindcss(), registrationApiPlugin(), githubPagesSpaPlugin()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
