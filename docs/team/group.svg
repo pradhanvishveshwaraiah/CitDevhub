@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="70%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="25%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="75%" stop-color="#92400e"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <linearGradient id="skin1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4976a"/>
+      <stop offset="100%" stop-color="#b67545"/>
+    </linearGradient>
+    <linearGradient id="skin2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfa77b"/>
+      <stop offset="100%" stop-color="#c18353"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean classroom wall background -->
+  <rect width="1000" height="625" fill="url(#wallGrad)"/>
+
+  <!-- Classroom Floor -->
+  <rect y="500" width="1000" height="125" fill="#f8fafc"/>
+
+  <!-- ================= BACK ROW (3 STANDING FEMALE FOUNDERS) ================= -->
+
+  <!-- 1. Monisha (Back Left - Pink Top) -->
+  <g id="monisha_group">
+    <!-- Hair back -->
+    <path d="M 330 220 C 310 180, 390 180, 370 220 L 380 340 L 320 340 Z" fill="#0f172a"/>
+    <!-- Body in Pink Top -->
+    <path d="M 300 450 L 325 290 L 385 290 L 410 450 Z" fill="#f472b6"/>
+    <!-- Head & Face -->
+    <ellipse cx="355" cy="245" rx="26" ry="32" fill="url(#skin2)"/>
+    <!-- Hair front -->
+    <path d="M 330 230 C 330 200, 380 200, 380 230 C 370 215, 340 215, 330 230 Z" fill="#09090b"/>
+    <!-- Eyes -->
+    <circle cx="345" cy="242" r="2.5" fill="#09090b"/>
+    <circle cx="365" cy="242" r="2.5" fill="#09090b"/>
+    <!-- Smile -->
+    <path d="M 348 260 Q 355 266 362 260" stroke="#881337" stroke-width="1.8" fill="none"/>
+    <!-- Blue CIT Lanyard -->
+    <path d="M 345 290 L 350 420" stroke="#0284c7" stroke-width="4"/>
+    <path d="M 365 290 L 360 420" stroke="#0284c7" stroke-width="4"/>
+  </g>
+
+  <!-- 2. Hamsaveni (Back Center - Light Lavender Striped Top) -->
+  <g id="hamsaveni_group">
+    <!-- Hair back -->
+    <path d="M 470 220 C 450 170, 540 170, 520 220 L 530 340 L 460 340 Z" fill="#0f172a"/>
+    <!-- Body in Light Striped Top -->
+    <path d="M 440 450 L 470 290 L 530 290 L 560 450 Z" fill="#e0e7ff"/>
+    <line x1="475" y1="310" x2="525" y2="310" stroke="#c7d2fe" stroke-width="2"/>
+    <line x1="465" y1="340" x2="535" y2="340" stroke="#c7d2fe" stroke-width="2"/>
+    <!-- Head & Face -->
+    <ellipse cx="500" cy="245" rx="26" ry="32" fill="url(#skin2)"/>
+    <!-- Hair front -->
+    <path d="M 475 230 C 475 195, 525 195, 525 230 C 515 215, 485 215, 475 230 Z" fill="#09090b"/>
+    <!-- Eyes -->
+    <circle cx="490" cy="242" r="2.5" fill="#09090b"/>
+    <circle cx="510" cy="242" r="2.5" fill="#09090b"/>
+    <!-- Smile -->
+    <path d="M 493 260 Q 500 266 507 260" stroke="#881337" stroke-width="1.8" fill="none"/>
+    <!-- Blue CIT Lanyard -->
+    <path d="M 490 290 L 495 420" stroke="#0284c7" stroke-width="4"/>
+    <path d="M 510 290 L 505 420" stroke="#0284c7" stroke-width="4"/>
+  </g>
+
+  <!-- 3. Naina (Back Right - Black Graphic T-Shirt) -->
+  <g id="naina_group">
+    <!-- Hair back -->
+    <path d="M 610 210 C 590 160, 680 160, 660 210 L 670 340 L 600 340 Z" fill="#0f172a"/>
+    <!-- Body in Black Top -->
+    <path d="M 580 450 L 610 280 L 670 280 L 700 450 Z" fill="#18181b"/>
+    <!-- Graphic white stripes on tee -->
+    <line x1="625" y1="320" x2="655" y2="320" stroke="#ffffff" stroke-width="2.5"/>
+    <line x1="620" y1="330" x2="660" y2="330" stroke="#ffffff" stroke-width="2"/>
+    <!-- Head & Face -->
+    <ellipse cx="640" cy="235" rx="26" ry="32" fill="url(#skin2)"/>
+    <!-- Hair front -->
+    <path d="M 615 220 C 615 185, 665 185, 665 220 C 655 205, 625 205, 615 220 Z" fill="#09090b"/>
+    <!-- Eyes -->
+    <circle cx="630" cy="232" r="2.5" fill="#09090b"/>
+    <circle cx="650" cy="232" r="2.5" fill="#09090b"/>
+    <!-- Smile -->
+    <path d="M 633 250 Q 640 256 647 250" stroke="#881337" stroke-width="1.8" fill="none"/>
+    <!-- Blue CIT Lanyard & ID card badge -->
+    <path d="M 630 280 L 638 420" stroke="#0284c7" stroke-width="4"/>
+    <path d="M 650 280 L 642 420" stroke="#0284c7" stroke-width="4"/>
+    <!-- White ID Card hanging -->
+    <rect x="632" y="380" width="16" height="24" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <rect x="635" y="384" width="10" height="8" fill="#0284c7"/>
+  </g>
+
+
+  <!-- ================= FRONT ROW (4 SITTING AT DESK) ================= -->
+
+  <!-- 4. Akshay (Front Left - Black Short-sleeve, Glasses) -->
+  <g id="akshay_group">
+    <!-- Legs in Blue Jeans -->
+    <path d="M 120 460 L 160 580 L 220 580 L 210 460 Z" fill="#3b82f6"/>
+    <!-- Black Shirt Torso -->
+    <path d="M 90 480 L 140 370 L 270 370 L 290 480 Z" fill="#18181b"/>
+    <!-- Head & Face -->
+    <ellipse cx="205" cy="350" rx="34" ry="38" fill="url(#skin1)"/>
+    <!-- Hair -->
+    <path d="M 170 340 C 165 300, 245 300, 240 340 C 235 320, 180 320, 170 340 Z" fill="#09090b"/>
+    <!-- Glasses -->
+    <rect x="180" y="336" width="22" height="15" rx="3" stroke="#e2e8f0" stroke-width="2" fill="none"/>
+    <rect x="208" y="336" width="22" height="15" rx="3" stroke="#e2e8f0" stroke-width="2" fill="none"/>
+    <line x1="202" y1="343" x2="208" y2="343" stroke="#e2e8f0" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="191" cy="343" r="2.5" fill="#09090b"/>
+    <circle cx="219" cy="343" r="2.5" fill="#09090b"/>
+    <!-- Wide Smile with teeth -->
+    <path d="M 194 365 Q 205 374 216 365 Z" fill="#ffffff" stroke="#522a0e" stroke-width="1"/>
+    <!-- Blue CIT Lanyard -->
+    <path d="M 195 385 L 202 460" stroke="#0284c7" stroke-width="5"/>
+    <path d="M 215 385 L 208 460" stroke="#0284c7" stroke-width="5"/>
+    <!-- Clasped Arms on table -->
+    <ellipse cx="195" cy="465" rx="28" ry="12" fill="url(#skin1)"/>
+  </g>
+
+  <!-- 5. Mohammed Hanan (Center Left - Plaid Checked Shirt, Glasses, Big Smile) -->
+  <g id="hanan_group">
+    <!-- Legs in Blue Jeans -->
+    <path d="M 320 460 L 340 580 L 410 580 L 400 460 Z" fill="#60a5fa"/>
+    <!-- Plaid Checked Shirt -->
+    <path d="M 285 480 L 330 360 L 460 360 L 490 480 Z" fill="#f8fafc"/>
+    <!-- Plaid Grid Lines -->
+    <line x1="330" y1="380" x2="460" y2="380" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="310" y1="410" x2="475" y2="410" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="300" y1="440" x2="485" y2="440" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="365" y1="360" x2="350" y2="480" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="420" y1="360" x2="420" y2="480" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Head & Face -->
+    <ellipse cx="395" cy="340" rx="33" ry="38" fill="url(#skin1)"/>
+    <!-- Hair -->
+    <path d="M 365 330 C 360 285, 430 285, 425 330 C 420 310, 370 310, 365 330 Z" fill="#09090b"/>
+    <!-- Glasses -->
+    <rect x="372" y="324" width="22" height="16" rx="4" stroke="#09090b" stroke-width="2.5" fill="none"/>
+    <rect x="398" y="324" width="22" height="16" rx="4" stroke="#09090b" stroke-width="2.5" fill="none"/>
+    <line x1="394" y1="332" x2="398" y2="332" stroke="#09090b" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="383" cy="332" r="2.5" fill="#09090b"/>
+    <circle cx="409" cy="332" r="2.5" fill="#09090b"/>
+    <!-- Moustache -->
+    <path d="M 382 352 Q 395 355 408 352" stroke="#09090b" stroke-width="2.5" fill="none"/>
+    <!-- Bright broad smile with white teeth -->
+    <path d="M 383 358 Q 395 368 407 358 Z" fill="#ffffff" stroke="#522a0e" stroke-width="1"/>
+    <!-- Blue CIT Lanyard -->
+    <path d="M 385 375 L 392 460" stroke="#0284c7" stroke-width="5"/>
+    <path d="M 405 375 L 398 460" stroke="#0284c7" stroke-width="5"/>
+    <!-- Arm resting on table -->
+    <path d="M 360 450 Q 400 480 440 450" stroke="url(#skin1)" stroke-width="20" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- 6. Yashwanth (Center Right - Black Long-sleeve, Wire Glasses, Bindi) -->
+  <g id="yashwanth_group">
+    <!-- Legs in Grey Cargo Pants -->
+    <path d="M 520 460 L 530 580 L 610 580 L 600 460 Z" fill="#64748b"/>
+    <!-- Black Shirt Torso -->
+    <path d="M 490 480 L 530 370 L 640 370 L 670 480 Z" fill="#09090b"/>
+    <!-- Head & Face -->
+    <ellipse cx="585" cy="350" rx="30" ry="36" fill="url(#skin1)"/>
+    <!-- Tilak / Bindi on forehead -->
+    <line x1="580" y1="324" x2="590" y2="324" stroke="#ffffff" stroke-width="1.8"/>
+    <circle cx="585" cy="328" r="1.8" fill="#dc2626"/>
+    <!-- Hair -->
+    <path d="M 555 340 C 550 300, 620 300, 615 340 C 610 320, 560 320, 555 340 Z" fill="#09090b"/>
+    <!-- Wire Glasses -->
+    <rect x="565" y="336" width="20" height="14" rx="3" stroke="#cbd5e1" stroke-width="2" fill="none"/>
+    <rect x="589" y="336" width="20" height="14" rx="3" stroke="#cbd5e1" stroke-width="2" fill="none"/>
+    <line x1="585" y1="343" x2="589" y2="343" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="575" cy="343" r="2.5" fill="#09090b"/>
+    <circle cx="599" cy="343" r="2.5" fill="#09090b"/>
+    <!-- Gentle Smile -->
+    <path d="M 577 364 Q 585 370 593 364" stroke="#522a0e" stroke-width="2" fill="none"/>
+    <!-- Blue CIT Lanyard -->
+    <path d="M 575 385 L 582 460" stroke="#0284c7" stroke-width="5"/>
+    <path d="M 595 385 L 588 460" stroke="#0284c7" stroke-width="5"/>
+    <!-- Red wristband/thread on wrist -->
+    <ellipse cx="560" cy="460" rx="14" ry="7" fill="#dc2626"/>
+    <!-- Clasped hands on table -->
+    <ellipse cx="585" cy="465" rx="24" ry="12" fill="url(#skin1)"/>
+  </g>
+
+  <!-- 7. Pradhan V (Front Right - Plaid Shirt, Curly Hair, Glasses, Watch) -->
+  <g id="pradhan_group">
+    <!-- Legs in Light Grey Pants -->
+    <path d="M 660 460 L 680 580 L 760 580 L 750 460 Z" fill="#cbd5e1"/>
+    <!-- Plaid Checked Grey Shirt -->
+    <path d="M 640 480 L 680 370 L 810 370 L 840 480 Z" fill="#e2e8f0"/>
+    <line x1="680" y1="400" x2="810" y2="400" stroke="#475569" stroke-width="1.5"/>
+    <line x1="660" y1="430" x2="825" y2="430" stroke="#475569" stroke-width="1.5"/>
+    <line x1="650" y1="460" x2="835" y2="460" stroke="#475569" stroke-width="1.5"/>
+    <line x1="720" y1="370" x2="710" y2="480" stroke="#475569" stroke-width="1.5"/>
+    <line x1="770" y1="370" x2="770" y2="480" stroke="#475569" stroke-width="1.5"/>
+    <!-- Head & Face -->
+    <ellipse cx="745" cy="350" rx="33" ry="38" fill="url(#skin1)"/>
+    <!-- Curly Hair matching Pradhan's photo -->
+    <circle cx="720" cy="315" r="14" fill="#09090b"/>
+    <circle cx="745" cy="308" r="16" fill="#09090b"/>
+    <circle cx="770" cy="315" r="14" fill="#09090b"/>
+    <circle cx="710" cy="335" r="12" fill="#09090b"/>
+    <circle cx="780" cy="335" r="12" fill="#09090b"/>
+    <path d="M 715 340 C 710 295, 780 295, 775 340 Z" fill="#09090b"/>
+    <!-- Glasses -->
+    <rect x="722" y="336" width="22" height="15" rx="3" stroke="#09090b" stroke-width="2.5" fill="none"/>
+    <rect x="748" y="336" width="22" height="15" rx="3" stroke="#09090b" stroke-width="2.5" fill="none"/>
+    <line x1="744" y1="343" x2="748" y2="343" stroke="#09090b" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="733" cy="343" r="2.5" fill="#09090b"/>
+    <circle cx="759" cy="343" r="2.5" fill="#09090b"/>
+    <!-- Beard / Goatee -->
+    <path d="M 740 375 Q 745 382 750 375" stroke="#18181b" stroke-width="2" fill="none"/>
+    <!-- Confident Smile with white teeth -->
+    <path d="M 733 365 Q 745 373 757 365 Z" fill="#ffffff" stroke="#522a0e" stroke-width="1"/>
+    <!-- Blue CIT Lanyard -->
+    <path d="M 735 385 L 742 460" stroke="#0284c7" stroke-width="5"/>
+    <path d="M 755 385 L 748 460" stroke="#0284c7" stroke-width="5"/>
+    <!-- Arm resting on desk with watch -->
+    <path d="M 710 460 Q 770 485 820 465" stroke="url(#skin1)" stroke-width="22" stroke-linecap="round" fill="none"/>
+    <rect x="790" y="455" width="10" height="16" rx="2" fill="#18181b"/>
+  </g>
+
+
+  <!-- ================= WOODEN DESK & BENCH IN FRONT ================= -->
+
+  <!-- Bench Leg Frames (Black Steel) -->
+  <rect x="40" y="460" width="16" height="165" fill="#18181b"/>
+  <rect x="420" y="460" width="16" height="165" fill="#18181b"/>
+  <rect x="850" y="460" width="16" height="165" fill="#18181b"/>
+  <!-- Crossbars -->
+  <line x1="40" y1="580" x2="866" y2="580" stroke="#27272a" stroke-width="8"/>
+  <line x1="40" y1="520" x2="866" y2="520" stroke="#27272a" stroke-width="6"/>
+
+  <!-- Classroom Table Top (Polished Wood Surface) -->
+  <polygon points="10,460 990,460 970,490 30,490" fill="url(#deskWood)"/>
+  <rect x="30" y="490" width="940" height="14" fill="#78350f"/>
+  <line x1="30" y1="490" x2="970" y2="490" stroke="#fde68a" stroke-width="2" opacity="0.6"/>
+
+  <!-- Subtle watermark banner on table -->
+  <text x="500" y="480" text-anchor="middle" fill="#fef3c7" font-size="12" font-family="'JetBrains Mono', monospace" font-weight="bold" letter-spacing="3" opacity="0.85">CAUVERY INSTITUTE OF TECHNOLOGY · CIT DEVHUB CORE TEAM</text>
+</svg>

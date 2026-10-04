@@ -148,17 +148,27 @@ function registrationApiPlugin(): Plugin {
   };
 }
 
-// Automatically creates a 404.html copy of index.html for GitHub Pages single-page app support
+// Automatically creates a 404.html, .nojekyll, and synchronizes to /docs for all GitHub Pages modes
 function githubPagesSpaPlugin(): Plugin {
   return {
     name: 'github-pages-spa',
     closeBundle() {
       const distDir = path.resolve(__dirname, 'dist');
+      const docsDir = path.resolve(__dirname, 'docs');
       const indexPath = path.join(distDir, 'index.html');
       const notFoundPath = path.join(distDir, '404.html');
+      const noJekyllPath = path.join(distDir, '.nojekyll');
+
       if (fs.existsSync(indexPath)) {
         try {
           fs.copyFileSync(indexPath, notFoundPath);
+          fs.writeFileSync(noJekyllPath, '');
+
+          // Also mirror dist to docs folder to support "Deploy from branch -> main -> /docs"
+          if (fs.existsSync(docsDir)) {
+            fs.rmSync(docsDir, { recursive: true, force: true });
+          }
+          fs.cpSync(distDir, docsDir, { recursive: true });
         } catch {
           // ignore copy error
         }

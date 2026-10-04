@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gardenBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="hamsaSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfa77b"/>
+      <stop offset="100%" stop-color="#c18353"/>
+    </linearGradient>
+    <linearGradient id="sareeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4d7c0f"/>
+      <stop offset="50%" stop-color="#65a30d"/>
+      <stop offset="100%" stop-color="#3f6212"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Garden Background with lush foliage matching photo -->
+  <rect width="400" height="400" fill="url(#gardenBg)"/>
+  <!-- Cypress / Thuja garden shrub behind left shoulder -->
+  <path d="M 40 400 L 80 50 L 160 400 Z" fill="#15803d" opacity="0.85"/>
+  <circle cx="80" cy="180" r="60" fill="#22c55e" opacity="0.8"/>
+  <circle cx="120" cy="140" r="50" fill="#16a34a" opacity="0.8"/>
+  <!-- Red garden flowers -->
+  <circle cx="150" cy="110" r="8" fill="#ef4444"/>
+  <circle cx="165" cy="140" r="9" fill="#ef4444"/>
+  <circle cx="130" cy="160" r="7" fill="#dc2626"/>
+
+  <!-- Flowing Long Dark Hair (Back) -->
+  <path d="M 120 180 C 110 90, 290 90, 280 180 L 295 400 L 105 400 Z" fill="#09090b"/>
+
+  <!-- Neck -->
+  <path d="M 175 210 L 225 210 L 225 270 L 175 270 Z" fill="#c18353"/>
+
+  <!-- Gold necklace with small floral pendant matching photo -->
+  <path d="M 175 240 Q 200 265 225 240" stroke="#eab308" stroke-width="2.5" fill="none"/>
+  <circle cx="200" cy="254" r="4.5" fill="#facc15" stroke="#ca8a04" stroke-width="1"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="175" rx="56" ry="66" fill="url(#hamsaSkin)"/>
+
+  <!-- Front Hair framing face -->
+  <path d="M 140 160 C 130 110, 170 100, 200 102 C 230 100, 270 110, 260 160 C 250 135, 235 120, 200 122 C 165 120, 150 135, 140 160 Z" fill="#09090b"/>
+  <!-- Side locks -->
+  <path d="M 142 165 Q 148 240 140 330 L 125 330 Q 130 220 142 165 Z" fill="#09090b"/>
+  <path d="M 258 165 Q 252 240 260 330 L 275 330 Q 270 220 258 165 Z" fill="#09090b"/>
+
+  <!-- Gold Jhumka Earrings matching photo -->
+  <circle cx="140" cy="190" r="3" fill="#eab308"/>
+  <path d="M 137 193 L 143 193 L 145 204 L 135 204 Z" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+  <circle cx="260" cy="190" r="3" fill="#eab308"/>
+  <path d="M 257 193 L 263 193 L 265 204 L 255 204 Z" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+
+  <!-- Small Bindi -->
+  <circle cx="200" cy="150" r="1.8" fill="#18181b"/>
+
+  <!-- Eyebrows -->
+  <path d="M 162 154 Q 176 148 188 152" stroke="#09090b" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M 212 152 Q 224 148 238 154" stroke="#09090b" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes with bright expression -->
+  <ellipse cx="174" cy="166" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="175" cy="166" r="4.2" fill="#09090b"/>
+  <circle cx="176" cy="164" r="1.2" fill="#ffffff"/>
+  <ellipse cx="226" cy="166" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="225" cy="166" r="4.2" fill="#09090b"/>
+  <circle cx="226" cy="164" r="1.2" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M 200 168 L 198 190 Q 200 194 204 190" stroke="#9e6437" stroke-width="2" fill="none"/>
+
+  <!-- Radiant smile with bright white teeth matching photo -->
+  <path d="M 180 208 Q 200 224 220 208 Z" fill="#ffffff" stroke="#991b1b" stroke-width="1.5"/>
+  <path d="M 178 207 Q 200 213 222 207" stroke="#991b1b" stroke-width="2" fill="none"/>
+
+  <!-- Hot Pink Blouse matching photo -->
+  <path d="M 110 400 L 140 265 L 180 270 L 150 400 Z" fill="#ec4899"/>
+  
+  <!-- Olive Green Saree Pallu draped across matching photo -->
+  <path d="M 120 400 L 160 270 L 255 270 L 290 400 Z" fill="url(#sareeGrad)"/>
+  <!-- Fine horizontal weave lines on saree -->
+  <line x1="165" y1="285" x2="250" y2="285" stroke="#84cc16" stroke-width="1" opacity="0.4"/>
+  <line x1="160" y1="305" x2="255" y2="305" stroke="#84cc16" stroke-width="1" opacity="0.4"/>
+  <line x1="155" y1="325" x2="265" y2="325" stroke="#84cc16" stroke-width="1" opacity="0.4"/>
+  <line x1="150" y1="345" x2="275" y2="345" stroke="#84cc16" stroke-width="1" opacity="0.4"/>
+  <line x1="145" y1="365" x2="280" y2="365" stroke="#84cc16" stroke-width="1" opacity="0.4"/>
+  <!-- Painted flower motif on Pallu shoulder -->
+  <circle cx="240" cy="290" r="10" fill="#fbcfe8" opacity="0.7"/>
+  <circle cx="240" cy="290" r="4" fill="#f43f5e" opacity="0.8"/>
+</svg>

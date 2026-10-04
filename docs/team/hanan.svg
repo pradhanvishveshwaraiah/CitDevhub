@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c98a58"/>
+      <stop offset="100%" stop-color="#ab6b3b"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Studio Background matching photo -->
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Back Hair -->
+  <path d="M 130 170 C 120 100, 150 70, 200 70 C 250 70, 280 100, 270 170 Z" fill="#18181b"/>
+  
+  <!-- Neck -->
+  <path d="M 175 220 L 225 220 L 225 280 L 175 280 Z" fill="#b87a48"/>
+  <path d="M 175 240 Q 200 255 225 240 L 225 280 L 175 280 Z" fill="#9e6538"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="180" rx="65" ry="75" fill="url(#skinGrad)"/>
+
+  <!-- Front Hair - Neat combed style with texture -->
+  <path d="M 135 150 C 130 90, 160 70, 200 70 C 240 70, 270 90, 265 150 C 255 120, 240 105, 200 105 C 160 105, 145 120, 135 150 Z" fill="#111827"/>
+  <path d="M 140 120 C 160 95, 200 95, 220 105 C 240 115, 255 105, 262 135 C 250 110, 220 100, 190 100 C 160 100, 145 110, 140 120 Z" fill="#1f2937"/>
+
+  <!-- Ears -->
+  <ellipse cx="135" cy="185" rx="10" ry="18" fill="#ab6b3b"/>
+  <ellipse cx="265" cy="185" rx="10" ry="18" fill="#ab6b3b"/>
+
+  <!-- Eyebrows -->
+  <path d="M 155 155 Q 175 150 185 155" stroke="#111827" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M 215 155 Q 225 150 245 155" stroke="#111827" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes -->
+  <ellipse cx="170" cy="170" rx="9" ry="6" fill="#ffffff"/>
+  <circle cx="171" cy="170" r="4.5" fill="#18181b"/>
+  <ellipse cx="230" cy="170" rx="9" ry="6" fill="#ffffff"/>
+  <circle cx="229" cy="170" r="4.5" fill="#18181b"/>
+
+  <!-- Glasses matching photo (sleek black rectangular frames) -->
+  <rect x="145" y="152" width="48" height="34" rx="8" stroke="#18181b" stroke-width="4.5" fill="rgba(255,255,255,0.15)"/>
+  <rect x="207" y="152" width="48" height="34" rx="8" stroke="#18181b" stroke-width="4.5" fill="rgba(255,255,255,0.15)"/>
+  <line x1="193" y1="166" x2="207" y2="166" stroke="#18181b" stroke-width="4"/>
+  <line x1="145" y1="165" x2="135" y2="168" stroke="#18181b" stroke-width="3.5"/>
+  <line x1="255" y1="165" x2="265" y2="168" stroke="#18181b" stroke-width="3.5"/>
+
+  <!-- Nose -->
+  <path d="M 197 175 L 195 200 Q 200 205 205 200" stroke="#8d562b" stroke-width="2.5" fill="none"/>
+
+  <!-- Moustache matching photo -->
+  <path d="M 172 214 Q 200 220 228 214 Q 200 210 172 214 Z" fill="#18181b"/>
+
+  <!-- Confident smile/mouth -->
+  <path d="M 182 225 Q 200 231 218 225" stroke="#6b3a19" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <ellipse cx="200" cy="238" rx="8" ry="3" fill="#8d562b"/>
+
+  <!-- Crisp White Shirt Collar -->
+  <polygon points="200,270 160,285 240,285" fill="#ffffff"/>
+  <polygon points="170,270 150,305 195,295" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <polygon points="230,270 250,305 205,295" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Black Tie matching photo -->
+  <polygon points="194,285 206,285 210,400 190,400" fill="#09090b"/>
+  <polygon points="192,282 208,282 205,300 195,300" fill="#18181b"/>
+
+  <!-- Professional Black Suit Jacket -->
+  <path d="M 80 400 L 140 285 L 180 290 L 190 400 Z" fill="url(#suitGrad)"/>
+  <path d="M 320 400 L 260 285 L 220 290 L 210 400 Z" fill="url(#suitGrad)"/>
+  <!-- Lapels -->
+  <polygon points="140,285 185,350 170,355 130,295" fill="#111827"/>
+  <polygon points="260,285 215,350 230,355 270,295" fill="#111827"/>
+</svg>
