@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #050505;
+    --text: #ffffff;
+    --text-muted: #a0a0a0;
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --accent: #e2e8f0;
+    --glow: rgba(255, 255, 255, 0.15);
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Clash Display', 'Inter', system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Glass card styling inspired by Pradhan's portfolio */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-hover:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Background Blobs */
+.blob {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(140px);
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+.blob-1 {
+  width: 45vw;
+  height: 45vw;
+  background: #262626;
+  top: -15vw;
+  left: -15vw;
+}
+
+.blob-2 {
+  width: 35vw;
+  height: 35vw;
+  background: #1a1a1a;
+  bottom: -10vw;
+  right: -10vw;
+}
+
+/* Clean minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes auraGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.35), 0 0 30px rgba(168, 85, 247, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.6), 0 0 45px rgba(168, 85, 247, 0.4);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 8s linear infinite;
+}
+
+.animate-float-gentle {
+  animation: floatGentle 3.5s ease-in-out infinite;
+}
+
+.animate-aura-glow {
+  animation: auraGlow 4s ease-in-out infinite;
+}

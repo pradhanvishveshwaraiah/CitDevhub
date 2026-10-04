@@ -1,0 +1,6 @@
+{
+  "name": "CIT DevHub | Student Developer Club",
+  "description": "Official portal of CIT DevHub student developer club at Cauvery Institute of Technology, Mandya. Learn & Code & Share.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

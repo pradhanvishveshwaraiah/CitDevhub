@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="60%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="monSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0a97c"/>
+      <stop offset="100%" stop-color="#c58a58"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outdoor scenic background (trees & road) matching photo -->
+  <rect width="400" height="400" fill="url(#skyGrad)"/>
+  <!-- Trees in background -->
+  <circle cx="80" cy="180" r="100" fill="#22c55e" opacity="0.8"/>
+  <circle cx="40" cy="150" r="80" fill="#15803d" opacity="0.9"/>
+  <circle cx="340" cy="190" r="90" fill="#16a34a" opacity="0.8"/>
+  <circle cx="370" cy="160" r="70" fill="#14532d" opacity="0.9"/>
+  <!-- Road perspective -->
+  <polygon points="170,220 230,220 320,400 80,400" fill="#94a3b8" opacity="0.6"/>
+
+  <!-- Flowing Long Dark Hair (Back) -->
+  <path d="M 120 180 C 110 100, 290 100, 280 180 L 295 400 L 105 400 Z" fill="#0f172a"/>
+
+  <!-- Neck -->
+  <path d="M 175 220 L 225 220 L 225 280 L 175 280 Z" fill="#c58a58"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="185" rx="55" ry="68" fill="url(#monSkin)"/>
+
+  <!-- Front Hair framing face -->
+  <path d="M 135 170 C 130 115, 170 105, 200 110 C 230 105, 270 115, 265 170 C 255 140, 235 125, 200 128 C 165 125, 145 140, 135 170 Z" fill="#09090b"/>
+  <path d="M 130 180 Q 135 250 145 350 L 115 350 Q 110 220 130 180 Z" fill="#09090b"/>
+  <path d="M 270 180 Q 265 250 255 350 L 285 350 Q 290 220 270 180 Z" fill="#09090b"/>
+
+  <!-- Flower Wreath / Floral Crown on Hair matching photo -->
+  <!-- Green leafy vine -->
+  <path d="M 130 130 Q 200 105 270 130" stroke="#15803d" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Leaves -->
+  <ellipse cx="140" cy="125" rx="8" ry="4" transform="rotate(-20 140 125)" fill="#22c55e"/>
+  <ellipse cx="180" cy="112" rx="8" ry="4" transform="rotate(-10 180 112)" fill="#22c55e"/>
+  <ellipse cx="220" cy="112" rx="8" ry="4" transform="rotate(10 220 112)" fill="#22c55e"/>
+  <ellipse cx="260" cy="125" rx="8" ry="4" transform="rotate(20 260 125)" fill="#22c55e"/>
+  <!-- Purple & Blue flowers -->
+  <circle cx="150" cy="122" r="9" fill="#6366f1"/>
+  <circle cx="150" cy="122" r="3.5" fill="#fef08a"/>
+  <circle cx="170" cy="115" r="8" fill="#a855f7"/>
+  <circle cx="170" cy="115" r="3" fill="#fef08a"/>
+  <circle cx="200" cy="110" r="10" fill="#4f46e5"/>
+  <circle cx="200" cy="110" r="4" fill="#fde047"/>
+  <circle cx="230" cy="115" r="8.5" fill="#9333ea"/>
+  <circle cx="230" cy="115" r="3" fill="#fef08a"/>
+  <circle cx="250" cy="122" r="9" fill="#6366f1"/>
+  <circle cx="250" cy="122" r="3.5" fill="#fef08a"/>
+
+  <!-- Eyebrows -->
+  <path d="M 160 162 Q 175 156 188 160" stroke="#09090b" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M 212 160 Q 225 156 240 162" stroke="#09090b" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes with warm expression -->
+  <ellipse cx="174" cy="175" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="175" cy="175" r="4" fill="#09090b"/>
+  <circle cx="176" cy="173" r="1.2" fill="#ffffff"/>
+  <ellipse cx="226" cy="175" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="225" cy="175" r="4" fill="#09090b"/>
+  <circle cx="226" cy="173" r="1.2" fill="#ffffff"/>
+
+  <!-- Cute Nose -->
+  <path d="M 200 178 L 198 198 Q 200 202 204 198" stroke="#a36537" stroke-width="2" fill="none"/>
+
+  <!-- Gentle warm smile with teeth -->
+  <path d="M 182 216 Q 200 230 218 216 Z" fill="#ffffff" stroke="#991b1b" stroke-width="1.5"/>
+  <path d="M 180 215 Q 200 220 220 215" stroke="#991b1b" stroke-width="2.5" fill="none"/>
+
+  <!-- White Floral Top with pink pattern matching photo -->
+  <path d="M 110 400 L 140 270 L 260 270 L 290 400 Z" fill="#ffffff"/>
+  <!-- Pink roses print -->
+  <circle cx="160" cy="310" r="12" fill="#f43f5e" opacity="0.6"/>
+  <circle cx="240" cy="320" r="14" fill="#f43f5e" opacity="0.6"/>
+  <circle cx="190" cy="360" r="15" fill="#fb7185" opacity="0.6"/>
+  <circle cx="140" cy="370" r="10" fill="#f43f5e" opacity="0.5"/>
+  <circle cx="260" cy="380" r="11" fill="#fb7185" opacity="0.5"/>
+
+  <!-- Blue College Lanyard ("CIT MANDYA") matching photo -->
+  <path d="M 180 270 L 188 400" stroke="#0284c7" stroke-width="10" stroke-linecap="square"/>
+  <path d="M 220 270 L 212 400" stroke="#0284c7" stroke-width="10" stroke-linecap="square"/>
+  <text x="189" y="340" transform="rotate(85 189 340)" fill="#ffffff" font-size="6" font-family="monospace" font-weight="bold">CIT MANDYA</text>
+  <text x="211" y="340" transform="rotate(95 211 340)" fill="#ffffff" font-size="6" font-family="monospace" font-weight="bold">CIT MANDYA</text>
+</svg>

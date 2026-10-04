@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nainaSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfa77b"/>
+      <stop offset="100%" stop-color="#c18353"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Green Floral Backdrop with white roses matching photo -->
+  <rect width="400" height="400" fill="#14532d"/>
+  <!-- Leaves texture -->
+  <circle cx="80" cy="80" r="40" fill="#166534"/>
+  <circle cx="320" cy="80" r="50" fill="#166534"/>
+  <circle cx="50" cy="200" r="45" fill="#15803d"/>
+  <circle cx="360" cy="200" r="45" fill="#15803d"/>
+  <!-- White decorative roses on backdrop -->
+  <circle cx="100" cy="60" r="22" fill="#f1f5f9"/>
+  <circle cx="100" cy="60" r="14" fill="#e2e8f0"/>
+  <circle cx="300" cy="60" r="24" fill="#f1f5f9"/>
+  <circle cx="300" cy="60" r="16" fill="#e2e8f0"/>
+  <!-- Gold banner flags in background -->
+  <polygon points="175,90 225,90 200,125" fill="#facc15" stroke="#ca8a04" stroke-width="1"/>
+  <text x="200" y="112" text-anchor="middle" fill="#713f12" font-size="16" font-family="sans-serif" font-weight="bold">A</text>
+
+  <!-- Flowing Long Dark Hair (Back) -->
+  <path d="M 120 180 C 110 90, 290 90, 280 180 L 295 400 L 105 400 Z" fill="#09090b"/>
+
+  <!-- Neck -->
+  <path d="M 175 220 L 225 220 L 225 280 L 175 280 Z" fill="#c18353"/>
+
+  <!-- Multi-strand gold necklace matching photo -->
+  <path d="M 170 248 Q 200 272 230 248" stroke="#facc15" stroke-width="2" fill="none"/>
+  <path d="M 166 256 Q 200 282 234 256" stroke="#facc15" stroke-width="2" fill="none"/>
+  <path d="M 162 264 Q 200 292 238 264" stroke="#facc15" stroke-width="2" fill="none"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="180" rx="55" ry="66" fill="url(#nainaSkin)"/>
+
+  <!-- Front Hair framing face -->
+  <path d="M 140 160 C 130 110, 170 100, 200 102 C 230 100, 270 110, 260 160 C 250 135, 235 120, 200 122 C 165 120, 150 135, 140 160 Z" fill="#09090b"/>
+  <!-- Flowing side hair -->
+  <path d="M 135 170 Q 140 240 130 350 L 115 350 Q 125 220 135 170 Z" fill="#09090b"/>
+  <path d="M 265 170 Q 260 240 270 350 L 285 350 Q 275 220 265 170 Z" fill="#09090b"/>
+
+  <!-- Silver Jhumka Earrings matching photo -->
+  <circle cx="138" cy="190" r="3" fill="#cbd5e1"/>
+  <path d="M 135 193 L 141 193 L 143 205 L 133 205 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <circle cx="262" cy="190" r="3" fill="#cbd5e1"/>
+  <path d="M 259 193 L 265 193 L 267 205 L 257 205 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+
+  <!-- Bindi on forehead matching photo -->
+  <circle cx="200" cy="150" r="2.2" fill="#09090b"/>
+
+  <!-- Eyebrows -->
+  <path d="M 160 156 Q 174 150 186 154" stroke="#09090b" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M 214 154 Q 226 150 240 156" stroke="#09090b" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes with bright cheerful gaze -->
+  <ellipse cx="173" cy="168" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="174" cy="168" r="4.2" fill="#09090b"/>
+  <circle cx="175" cy="166" r="1.2" fill="#ffffff"/>
+  <ellipse cx="227" cy="168" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="226" cy="168" r="4.2" fill="#09090b"/>
+  <circle cx="227" cy="166" r="1.2" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M 200 170 L 198 192 Q 200 196 204 192" stroke="#9e6437" stroke-width="2" fill="none"/>
+
+  <!-- Glowing Smile with white teeth matching photo -->
+  <path d="M 180 210 Q 200 228 220 210 Z" fill="#ffffff" stroke="#991b1b" stroke-width="1.5"/>
+  <path d="M 178 209 Q 200 215 222 209" stroke="#991b1b" stroke-width="2" fill="none"/>
+
+  <!-- Pink & White Striped Traditional Attire matching photo -->
+  <path d="M 110 400 L 140 270 L 260 270 L 290 400 Z" fill="#f472b6"/>
+  <!-- Diagonal / horizontal white stripes -->
+  <line x1="130" y1="290" x2="270" y2="290" stroke="#fdf2f8" stroke-width="3.5" opacity="0.85"/>
+  <line x1="125" y1="310" x2="275" y2="310" stroke="#fdf2f8" stroke-width="3.5" opacity="0.85"/>
+  <line x1="120" y1="330" x2="280" y2="330" stroke="#fdf2f8" stroke-width="3.5" opacity="0.85"/>
+  <line x1="115" y1="350" x2="285" y2="350" stroke="#fdf2f8" stroke-width="3.5" opacity="0.85"/>
+  <line x1="110" y1="370" x2="290" y2="370" stroke="#fdf2f8" stroke-width="3.5" opacity="0.85"/>
+  <line x1="105" y1="390" x2="295" y2="390" stroke="#fdf2f8" stroke-width="3.5" opacity="0.85"/>
+</svg>

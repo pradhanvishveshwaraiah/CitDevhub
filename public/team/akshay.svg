@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="akshayBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="70%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </radialGradient>
+    <linearGradient id="akSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c98a58"/>
+      <stop offset="100%" stop-color="#ab6b3b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Corporate Studio Background matching photo -->
+  <rect width="400" height="400" fill="url(#akshayBg)"/>
+
+  <!-- Neck -->
+  <path d="M 170 230 L 230 230 L 230 290 L 170 290 Z" fill="#ab6b3b"/>
+
+  <!-- Face - Full round friendly structure matching photo -->
+  <ellipse cx="200" cy="180" rx="72" ry="78" fill="url(#akSkin)"/>
+
+  <!-- Hair - Neat parted cut matching photo -->
+  <path d="M 125 155 C 120 85, 155 60, 200 60 C 245 60, 280 85, 275 155 C 265 120, 245 98, 200 98 C 155 98, 135 120, 125 155 Z" fill="#0f172a"/>
+  <path d="M 140 110 Q 200 75 260 110 Q 200 90 140 110 Z" fill="#1e293b"/>
+
+  <!-- Ears -->
+  <ellipse cx="126" cy="185" rx="9" ry="18" fill="#ab6b3b"/>
+  <ellipse cx="274" cy="185" rx="9" ry="18" fill="#ab6b3b"/>
+
+  <!-- Eyebrows -->
+  <path d="M 152 148 Q 170 142 185 146" stroke="#0f172a" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M 215 146 Q 230 142 248 148" stroke="#0f172a" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes - Smiling crescent shape with warm twinkle -->
+  <ellipse cx="170" cy="165" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="171" cy="165" r="4.5" fill="#0f172a"/>
+  <circle cx="173" cy="163" r="1.5" fill="#ffffff"/>
+  <ellipse cx="230" cy="165" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="229" cy="165" r="4.5" fill="#0f172a"/>
+  <circle cx="231" cy="163" r="1.5" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M 197 165 L 195 195 Q 200 200 205 195" stroke="#8d562b" stroke-width="2.5" fill="none"/>
+
+  <!-- Broad happy smile showing white teeth matching photo -->
+  <path d="M 170 215 Q 200 240 230 215 Z" fill="#ffffff" stroke="#522a0e" stroke-width="1.5"/>
+  <path d="M 166 214 Q 200 220 234 214" stroke="#522a0e" stroke-width="2" fill="none"/>
+  <!-- Smile creases -->
+  <path d="M 162 208 Q 164 215 168 220" stroke="#8d562b" stroke-width="1.8" fill="none"/>
+  <path d="M 238 208 Q 236 215 232 220" stroke="#8d562b" stroke-width="1.8" fill="none"/>
+
+  <!-- Light Grey / Blue Dress Shirt -->
+  <polygon points="200,270 155,290 245,290" fill="#e2e8f0"/>
+  <polygon points="175,270 150,305 195,300" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <polygon points="225,270 250,305 205,300" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Navy Blue Suit Jacket matching photo -->
+  <path d="M 80 400 L 140 285 L 180 295 L 190 400 Z" fill="#1e293b"/>
+  <path d="M 320 400 L 260 285 L 220 295 L 210 400 Z" fill="#1e293b"/>
+  <!-- Lapels -->
+  <polygon points="140,285 185,350 170,355 130,295" fill="#0f172a"/>
+  <polygon points="260,285 215,350 230,355 270,295" fill="#0f172a"/>
+</svg>

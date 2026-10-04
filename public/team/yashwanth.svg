@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="yashSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="yashSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4976a"/>
+      <stop offset="100%" stop-color="#b67545"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Blue Sky Background with fluffy clouds matching photo -->
+  <rect width="400" height="400" fill="url(#yashSky)"/>
+  <!-- Clouds -->
+  <circle cx="100" cy="70" r="45" fill="#ffffff" opacity="0.95"/>
+  <circle cx="150" cy="60" r="55" fill="#ffffff" opacity="0.95"/>
+  <circle cx="200" cy="75" r="40" fill="#ffffff" opacity="0.95"/>
+  <!-- Green trees in background -->
+  <path d="M 0 260 Q 60 180 140 250 Q 220 170 300 240 Q 360 190 400 240 L 400 400 L 0 400 Z" fill="#22c55e" opacity="0.75"/>
+  <path d="M 0 300 Q 80 230 180 290 Q 280 230 400 300 L 400 400 L 0 400 Z" fill="#15803d" opacity="0.85"/>
+
+  <!-- Neck -->
+  <path d="M 175 220 L 225 220 L 225 280 L 175 280 Z" fill="#b67545"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="180" rx="58" ry="72" fill="url(#yashSkin)"/>
+
+  <!-- Hair - Neat short modern cut matching photo -->
+  <path d="M 135 155 C 130 90, 160 65, 200 65 C 240 65, 270 90, 265 155 C 255 120, 235 100, 200 102 C 165 100, 145 120, 135 155 Z" fill="#0f172a"/>
+  <!-- Hair volume top -->
+  <path d="M 150 90 Q 200 60 250 90 Q 200 75 150 90 Z" fill="#1e293b"/>
+
+  <!-- Ears -->
+  <ellipse cx="138" cy="185" rx="8" ry="16" fill="#b67545"/>
+  <ellipse cx="262" cy="185" rx="8" ry="16" fill="#b67545"/>
+
+  <!-- Tilak / Bindi on forehead matching photo -->
+  <line x1="190" y1="128" x2="210" y2="128" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="200" cy="134" r="3" fill="#dc2626"/>
+
+  <!-- Eyebrows -->
+  <path d="M 158 152 Q 175 147 186 151" stroke="#0f172a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M 214 151 Q 225 147 242 152" stroke="#0f172a" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes -->
+  <ellipse cx="173" cy="168" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="174" cy="168" r="4" fill="#0f172a"/>
+  <ellipse cx="227" cy="168" rx="8" ry="5.5" fill="#ffffff"/>
+  <circle cx="226" cy="168" r="4" fill="#0f172a"/>
+
+  <!-- Sleek metal glasses frames matching photo -->
+  <rect x="148" y="149" width="46" height="32" rx="7" stroke="#334155" stroke-width="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="206" y="149" width="46" height="32" rx="7" stroke="#334155" stroke-width="3" fill="rgba(255,255,255,0.2)"/>
+  <line x1="194" y1="162" x2="206" y2="162" stroke="#334155" stroke-width="2.5"/>
+  <line x1="148" y1="160" x2="138" y2="163" stroke="#334155" stroke-width="2"/>
+  <line x1="252" y1="160" x2="262" y2="163" stroke="#334155" stroke-width="2"/>
+
+  <!-- Nose -->
+  <path d="M 198 172 L 196 195 Q 200 200 204 195" stroke="#925424" stroke-width="2" fill="none"/>
+
+  <!-- Smile matching photo -->
+  <path d="M 183 216 Q 200 224 217 216" stroke="#522a0e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Crisp White Collared Button-down Shirt matching photo -->
+  <path d="M 80 400 L 130 270 L 270 270 L 320 400 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <!-- Collar -->
+  <polygon points="200,270 150,290 195,305 200,275" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+  <polygon points="200,270 250,290 205,305 200,275" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+  <!-- Front Button Placket -->
+  <rect x="195" y="300" width="10" height="100" fill="#f1f5f9"/>
+  <circle cx="200" cy="325" r="3" fill="#cbd5e1"/>
+  <circle cx="200" cy="355" r="3" fill="#cbd5e1"/>
+  <circle cx="200" cy="385" r="3" fill="#cbd5e1"/>
+</svg>
